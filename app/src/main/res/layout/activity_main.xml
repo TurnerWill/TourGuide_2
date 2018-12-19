@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorSecondaryLight"
+    android:orientation="vertical"
+    tools:context="com.turnerwill.android.tourguide_2.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:elevation="6dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/flowers"
+                style="@style/CategoryStyle"
+                android:background="@color/category_flowers"
+                android:drawableRight="@drawable/ic_filter_vintage_black_48dp"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:text="@string/flowers" />
+
+            <TextView
+                android:id="@+id/parks"
+                style="@style/CategoryStyle"
+                android:background="@color/category_parks"
+                android:drawableRight="@drawable/ic_landscape_black_48dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:text="@string/parks" />
+
+            <TextView
+                android:id="@+id/restaurants"
+                style="@style/CategoryStyle"
+                android:background="@color/category_restaurants"
+                android:drawableRight="@drawable/ic_restaurant_black_48dp"
+                android:drawablePadding="5dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:text="Restaurants" />
+
+            <TextView
+                android:id="@+id/schools"
+                style="@style/CategoryStyle"
+                android:background="@color/category_schools"
+                android:drawableRight="@drawable/ic_school_black_48dp"
+                android:drawablePadding="5dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:text="Schools" />
+
+            <TextView
+                android:id="@+id/entertainment"
+                style="@style/CategoryStyle"
+                android:background="@color/category_restaurants"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:text="Entertainment" />
+
+            <TextView
+                android:id="@+id/shopping"
+                style="@style/CategoryStyle"
+                android:background="@color/category_restaurants"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:text="Shopping" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

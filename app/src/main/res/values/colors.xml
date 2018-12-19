@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#66bb6a</color>
+    <color name="primary_dark_color">#338a3e</color>
+    <color name="colorSecondary">#00c853</color>
+    <color name="colorSecondaryLight">#c6f2ec</color>
+    <color name="colorAccent">#009624</color>
+    <color name="background">#0e1829e4</color>
+    <color name="category_schools">#a0e41826</color>
+    <color name="category_flowers">#7b0eb1d2</color>
+    <color name="category_parks">#730e22d2</color>
+    <color name="category_restaurants">#f09b5a</color>
+    <color name="call_button">#d20e18</color>
+    <color name="big_button_balloon">#C3D552</color>
+
+</resources>

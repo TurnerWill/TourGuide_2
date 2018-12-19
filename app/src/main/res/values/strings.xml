@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="flowers">Flowers</string>
+    <string name="parks">Parks/Outdoors</string>
+    <string name="schools">Schools</string>
+    <string name="shopping">Shopping</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="cultural">Cultural</string>
+    <string name="action_settings">Settings</string>
+    <string name="category_family">Family Members</string>
+    <string name="description_general">description goes here</string>
+    <string name="description_thornden">
+        Centrally located. Thornden Park offers a place to cool off on hot summer days, either in the pool,
+        or strolling under the many shade trees. The park also has a basket ball court, and an outdoor amphitheater that hosts activities often.
+        Great place to walk the dog or sled in the winter time.
+    </string>
+    <string name="description_burnet">A large park located on the west side of the city, it is also
+    home to the Burnet Park Zoo. The zoo is very popular with locals, among the favorite animals to
+    visit are the African lions, the grey and red wolves, and the Siberian tigers.
+    </string>
+    <string name="description_erie">The towpaths of the old Erie Canal waterway system are
+    today enjoyable as great destinations for biking, hiking and jogging. The canals criss cross the
+    state of New York, many open to boating and cruises as well. Green Lakes hosts a beach which is
+    very popular during the hot days of summer</string>
+    <string name="description_jamesville">The town of Jamesville on the periphery of the city is nestled
+    in hills, and there are also many small farms. Jamesville beach is a quick retreat for a picnic. For
+    the adventurous, the annual Syracuse Balloonfest launches from Jamesville Beach providing a great
+        way to view the spectacular scenery of the region from above.</string>
+    <string name="description_clark">On the south eastern edge of the city is found Clark Reservation.
+    An ancient glacial lake lies at the bottom of a large gorge, which is blanketed in trees,
+        boulder formations,and trails. Walking into Clark Reservation seems like stepping back into time.
+        One could easily imagine the whole of New York State was forest like this at some time. It is a great
+        place to find some soothing quiet as well as view flora and fauna such as maple trees, migrating monarch
+        butterflies, robins, wild turkeys, white-tailed deer and foxes. One would half expect to hear the
+        howl of wolves, maybe someday they will make their way back down from Canada to their former ranges.
+    </string>
+
+    <string name="new_york_deli">13152143303</string>
+    <string name="creole_soul_cafe">13155304178</string>
+    <string name="hk_takeout">13154288898</string>
+    <string name="chipotle_grill">13154463530</string>
+    <string name="koto_grill">13154795686</string>
+    <string name="taj_mahal">13154462229</string>
+    <string name="red_lobster">13154451988</string>
+    <string name="wings_syracuse">13154459464</string>
+
+    <string name="poi_name_key">poiName</string>
+    <string name="address_key">address</string>
+    <string name="poisearch_hint">Kind of place to add to your route</string>
+    <string name="no_search_results">No search results for \'%1$s\'. Please try another search term.</string>
+    <string name="add_to_my_route">Add to my route</string>
+
+    <string name="geocode_no_results">No Geocoder results. Pick different location and try again.</string>
+    <string name="api_response_error">API response error: \'%1$s\'.</string>
+</resources>
