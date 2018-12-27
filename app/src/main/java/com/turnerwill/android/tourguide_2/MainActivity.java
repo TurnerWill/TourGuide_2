@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent flowersIntent = new Intent(MainActivity.this, FlowerActivity.class);
+                Intent flowersIntent = new Intent(MainActivity.this, HistoryActivity.class);
                 startActivity(flowersIntent);
 
             }

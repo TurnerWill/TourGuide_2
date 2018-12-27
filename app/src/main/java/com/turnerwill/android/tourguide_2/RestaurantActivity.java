@@ -68,14 +68,14 @@ public class RestaurantActivity extends AppCompatActivity {
         mCardData = new CardData("The Rescue Mission Kitchen", getString(R.string.description_rescue), getString(R.string.rescue_phone),
                 R.drawable.rescue_mission);
         mRestaurantList.add(mCardData);
-        mCardData = new CardData("Erie Canal Waterway & Green Lakes State Park", getString(R.string.description_erie), null,
-                R.drawable.erie_canal);
+        mCardData = new CardData("restaurant name", getString(R.string.description_general), null,
+                R.drawable.placeholder);
         mRestaurantList.add(mCardData);
-        mCardData = new CardData("Jamesville Beach/Syracuse Balloonfest", getString(R.string.description_jamesville), null,
-                R.drawable.jamesville_balloon);
+        mCardData = new CardData("restaurant name", getString(R.string.description_general), null,
+                R.drawable.placeholder);
         mRestaurantList.add(mCardData);
-        mCardData = new CardData("Clark Reservation State Park", getString(R.string.description_clark), null,
-                R.drawable.clark_reservation);
+        mCardData = new CardData("restaurant name", getString(R.string.description_general), null,
+                R.drawable.placeholder);
         mRestaurantList.add(mCardData);
 
         MyAdapter myAdapter = new MyAdapter(RestaurantActivity.this, mRestaurantList, true);

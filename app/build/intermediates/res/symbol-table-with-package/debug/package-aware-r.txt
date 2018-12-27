@@ -1186,6 +1186,7 @@ drawable occ_logo
 drawable oswego_logo
 drawable park_thornden_rose
 drawable pavones_pizza
+drawable placeholder
 drawable rescue_mission
 drawable rotate_to_button_selector
 drawable spaghetti_warehouse
@@ -1633,6 +1634,7 @@ string description_jamesville
 string description_koto
 string description_pavones
 string description_rescue
+string description_spaghetti
 string description_thornden
 string display_dist_km
 string display_dist_m
@@ -1647,7 +1649,8 @@ string geocode_no_results
 string go_to_settings_allow_location_msg
 string go_to_settings_turn_on_location_msg
 string hide_bottom_view_on_scroll_behavior
-string hk_takeout
+string historical
+string hk_takeout_phone
 string koto_grill_phone
 string mtrl_chip_close_icon_content_description
 string no_search_results
@@ -1668,7 +1671,7 @@ string shopping
 string spaghetti_phone
 string status_bar_notification_info_overflow
 string waiting_for_gps
-string wings_syracuse
+string wings_syracuse_phone
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

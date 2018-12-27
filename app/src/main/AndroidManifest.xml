@@ -30,7 +30,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".FlowerActivity"></activity>
+        <activity android:name=".HistoryActivity"></activity>
 
         <activity android:name=".ParkActivity"></activity>
 

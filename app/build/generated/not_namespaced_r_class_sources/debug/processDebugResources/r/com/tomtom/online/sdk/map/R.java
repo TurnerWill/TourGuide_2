@@ -948,13 +948,13 @@ public final class R {
         public static final int notification_template_icon_low_bg = 0x7f0700be;
         public static final int notification_tile_bg = 0x7f0700bf;
         public static final int notify_panel_notification_icon_bg = 0x7f0700c0;
-        public static final int rotate_to_button_selector = 0x7f0700c6;
-        public static final int tooltip_frame_dark = 0x7f0700cc;
-        public static final int tooltip_frame_light = 0x7f0700cd;
-        public static final int zoom_in = 0x7f0700cf;
-        public static final int zoom_in_highlighted = 0x7f0700d0;
-        public static final int zoom_out = 0x7f0700d1;
-        public static final int zoom_out_highlighted = 0x7f0700d2;
+        public static final int rotate_to_button_selector = 0x7f0700c7;
+        public static final int tooltip_frame_dark = 0x7f0700cd;
+        public static final int tooltip_frame_light = 0x7f0700ce;
+        public static final int zoom_in = 0x7f0700d0;
+        public static final int zoom_in_highlighted = 0x7f0700d1;
+        public static final int zoom_out = 0x7f0700d2;
+        public static final int zoom_out_highlighted = 0x7f0700d3;
     }
     public static final class id {
         private id() {}
@@ -1296,21 +1296,21 @@ public final class R {
         public static final int common_signin_button_text_long = 0x7f0e0046;
         public static final int copy_rights_error_msg = 0x7f0e0047;
         public static final int copyright_default = 0x7f0e0048;
-        public static final int display_dist_km = 0x7f0e0055;
-        public static final int display_dist_m = 0x7f0e0056;
-        public static final int display_dist_mi = 0x7f0e0057;
-        public static final int display_dist_yds = 0x7f0e0058;
-        public static final int display_time_24h = 0x7f0e0059;
-        public static final int go_to_settings_allow_location_msg = 0x7f0e005f;
-        public static final int go_to_settings_turn_on_location_msg = 0x7f0e0060;
-        public static final int password_toggle_content_description = 0x7f0e0067;
-        public static final int path_password_eye = 0x7f0e0068;
-        public static final int path_password_eye_mask_strike_through = 0x7f0e0069;
-        public static final int path_password_eye_mask_visible = 0x7f0e006a;
-        public static final int path_password_strike_through = 0x7f0e006b;
-        public static final int search_menu_title = 0x7f0e0072;
-        public static final int status_bar_notification_info_overflow = 0x7f0e0075;
-        public static final int waiting_for_gps = 0x7f0e0076;
+        public static final int display_dist_km = 0x7f0e0056;
+        public static final int display_dist_m = 0x7f0e0057;
+        public static final int display_dist_mi = 0x7f0e0058;
+        public static final int display_dist_yds = 0x7f0e0059;
+        public static final int display_time_24h = 0x7f0e005a;
+        public static final int go_to_settings_allow_location_msg = 0x7f0e0060;
+        public static final int go_to_settings_turn_on_location_msg = 0x7f0e0061;
+        public static final int password_toggle_content_description = 0x7f0e0069;
+        public static final int path_password_eye = 0x7f0e006a;
+        public static final int path_password_eye_mask_strike_through = 0x7f0e006b;
+        public static final int path_password_eye_mask_visible = 0x7f0e006c;
+        public static final int path_password_strike_through = 0x7f0e006d;
+        public static final int search_menu_title = 0x7f0e0074;
+        public static final int status_bar_notification_info_overflow = 0x7f0e0077;
+        public static final int waiting_for_gps = 0x7f0e0078;
     }
     public static final class style {
         private style() {}

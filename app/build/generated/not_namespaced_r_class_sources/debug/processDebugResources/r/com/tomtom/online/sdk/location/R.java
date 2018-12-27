@@ -643,8 +643,8 @@ public final class R {
         public static final int notification_template_icon_low_bg = 0x7f0700be;
         public static final int notification_tile_bg = 0x7f0700bf;
         public static final int notify_panel_notification_icon_bg = 0x7f0700c0;
-        public static final int tooltip_frame_dark = 0x7f0700cc;
-        public static final int tooltip_frame_light = 0x7f0700cd;
+        public static final int tooltip_frame_dark = 0x7f0700cd;
+        public static final int tooltip_frame_light = 0x7f0700ce;
     }
     public static final class id {
         private id() {}
@@ -880,13 +880,13 @@ public final class R {
         public static final int common_open_on_phone = 0x7f0e0044;
         public static final int common_signin_button_text = 0x7f0e0045;
         public static final int common_signin_button_text_long = 0x7f0e0046;
-        public static final int display_dist_km = 0x7f0e0055;
-        public static final int display_dist_m = 0x7f0e0056;
-        public static final int display_dist_mi = 0x7f0e0057;
-        public static final int display_dist_yds = 0x7f0e0058;
-        public static final int display_time_24h = 0x7f0e0059;
-        public static final int search_menu_title = 0x7f0e0072;
-        public static final int status_bar_notification_info_overflow = 0x7f0e0075;
+        public static final int display_dist_km = 0x7f0e0056;
+        public static final int display_dist_m = 0x7f0e0057;
+        public static final int display_dist_mi = 0x7f0e0058;
+        public static final int display_dist_yds = 0x7f0e0059;
+        public static final int display_time_24h = 0x7f0e005a;
+        public static final int search_menu_title = 0x7f0e0074;
+        public static final int status_bar_notification_info_overflow = 0x7f0e0077;
     }
     public static final class style {
         private style() {}

@@ -55,7 +55,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.turnerwill.android.tourguide_2.FlowerActivity" />
+        <activity android:name="com.turnerwill.android.tourguide_2.HistoryActivity" />
         <activity android:name="com.turnerwill.android.tourguide_2.ParkActivity" />
         <activity android:name="com.turnerwill.android.tourguide_2.SchoolActivity" />
         <activity android:name="com.turnerwill.android.tourguide_2.RestaurantActivity" />

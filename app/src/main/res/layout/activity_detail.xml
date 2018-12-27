@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:src="@drawable/going_asian" />
+        android:src="@drawable/placeholder" />
 
     <android.support.design.widget.CoordinatorLayout
         android:id="@+id/coordinator"

@@ -187,10 +187,10 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\William\AndroidStudioProjects\TourGuide_2\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
 		ADDED from C:\Users\William\AndroidStudioProjects\TourGuide_2\app\src\main\AndroidManifest.xml:29:27-74
-activity#com.turnerwill.android.tourguide_2.FlowerActivity
-ADDED from C:\Users\William\AndroidStudioProjects\TourGuide_2\app\src\main\AndroidManifest.xml:33:9-61
+activity#com.turnerwill.android.tourguide_2.HistoryActivity
+ADDED from C:\Users\William\AndroidStudioProjects\TourGuide_2\app\src\main\AndroidManifest.xml:33:9-62
 	android:name
-		ADDED from C:\Users\William\AndroidStudioProjects\TourGuide_2\app\src\main\AndroidManifest.xml:33:19-49
+		ADDED from C:\Users\William\AndroidStudioProjects\TourGuide_2\app\src\main\AndroidManifest.xml:33:19-50
 activity#com.turnerwill.android.tourguide_2.ParkActivity
 ADDED from C:\Users\William\AndroidStudioProjects\TourGuide_2\app\src\main\AndroidManifest.xml:35:9-59
 	android:name

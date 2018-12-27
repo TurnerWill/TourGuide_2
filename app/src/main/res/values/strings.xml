@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">TourGuide</string>
     <string name="flowers">Flowers</string>
+    <string name="historical">Historical Sites</string>
     <string name="parks">Parks/Outdoors</string>
     <string name="schools">Schools</string>
     <string name="shopping">Shopping</string>
@@ -42,6 +43,7 @@
     <string name="rescue_phone">13154726251</string>
     <string name="wings_syracuse_phone">13154459464</string>
     <string name="hk_takeout_phone">13154288898</string>
+    <string name="chipotle_grill">13154288898</string>
 
 
     <string name="description_creole">Have you got a taste for cajun catfish? Maybe

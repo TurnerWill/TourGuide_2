@@ -55,14 +55,6 @@ public class ParkActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mGridLayoutManager);
 
         mParkList = new ArrayList<CardData>();
-        mCardData = new CardData("Thornden Rose Park", "description goes here", getString(R.string.chipotle_grill),R.drawable.going_asian2);
-        mParkList.add(mCardData);
-        mCardData = new CardData("Carnation", getString(R.string.description_general),getString(R.string.chipotle_grill),
-                R.drawable.american_psycho);
-        mParkList.add(mCardData);
-        mCardData = new CardData("Tulip", getString(R.string.description_general), getString(R.string.chipotle_grill),
-                R.drawable.click_bait);
-        mParkList.add(mCardData);
         mCardData = new CardData("Thornden Rose Park", getString(R.string.description_thornden), null,
                 R.drawable.park_thornden_rose);
         mParkList.add(mCardData);
@@ -77,6 +69,14 @@ public class ParkActivity extends AppCompatActivity {
         mParkList.add(mCardData);
         mCardData = new CardData("Clark Reservation State Park", getString(R.string.description_clark), null,
                 R.drawable.clark_reservation);
+        mParkList.add(mCardData);
+        mCardData = new CardData("park name", "description goes here", getString(R.string.chipotle_grill),R.drawable.placeholder);
+        mParkList.add(mCardData);
+        mCardData = new CardData("park name", getString(R.string.description_general),getString(R.string.chipotle_grill),
+                R.drawable.placeholder);
+        mParkList.add(mCardData);
+        mCardData = new CardData("park name", getString(R.string.description_general), getString(R.string.chipotle_grill),
+                R.drawable.placeholder);
         mParkList.add(mCardData);
         
         MyAdapter myAdapter = new MyAdapter(ParkActivity.this, mParkList);
