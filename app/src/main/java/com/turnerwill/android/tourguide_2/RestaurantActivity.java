@@ -54,19 +54,19 @@ public class RestaurantActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mGridLayoutManager);
 
         mRestaurantList = new ArrayList<CardData>();
-        mCardData = new CardData("Thornden Rose Park", "description goes here", getString(R.string.chipotle_grill),R.drawable.going_asian2);
+        mCardData = new CardData("Creole Soul", getString(R.string.description_creole), getString(R.string.creole_soul_phone),R.drawable.creole_soul);
         mRestaurantList.add(mCardData);
-        mCardData = new CardData("Carnation", getString(R.string.description_general),getString(R.string.chipotle_grill),
-                R.drawable.american_psycho);
+        mCardData = new CardData("Koto Bar and Grill", getString(R.string.description_koto),getString(R.string.koto_grill_phone),
+                R.drawable.koto_steakhouse);
         mRestaurantList.add(mCardData);
-        mCardData = new CardData("Tulip", getString(R.string.description_general), getString(R.string.chipotle_grill),
-                R.drawable.click_bait);
+        mCardData = new CardData("Pavone's Pizza", getString(R.string.description_general), getString(R.string.pavones_pizza_phone),
+                R.drawable.pavones_pizza);
         mRestaurantList.add(mCardData);
-        mCardData = new CardData("Thornden Rose Park", getString(R.string.description_thornden), null,
-                R.drawable.park_thornden_rose);
+        mCardData = new CardData("The Spaghetti Warehouse", getString(R.string.description_thornden), getString(R.string.spaghetti_phone),
+                R.drawable.spaghetti_warehouse);
         mRestaurantList.add(mCardData);
-        mCardData = new CardData("Burnet Park Zoo", getString(R.string.description_burnet), null,
-                R.drawable.tiger_yawn);
+        mCardData = new CardData("The Rescue Mission Kitchen", getString(R.string.description_rescue), getString(R.string.rescue_phone),
+                R.drawable.rescue_mission);
         mRestaurantList.add(mCardData);
         mCardData = new CardData("Erie Canal Waterway & Green Lakes State Park", getString(R.string.description_erie), null,
                 R.drawable.erie_canal);

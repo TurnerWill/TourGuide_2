@@ -10,7 +10,7 @@
         android:id="@+id/mapFragment"
         android:name="com.tomtom.online.sdk.map.MapFragment"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/size_none"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/layout_edittext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,6 +52,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@android:drawable/ic_menu_search" />
+
 
     </android.support.constraint.ConstraintLayout>
 
