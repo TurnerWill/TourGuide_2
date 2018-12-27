@@ -70,7 +70,7 @@ public class ParkActivity extends AppCompatActivity {
         mCardData = new CardData("Clark Reservation State Park", getString(R.string.description_clark), null,
                 R.drawable.clark_reservation);
         mParkList.add(mCardData);
-        mCardData = new CardData("park name", "description goes here", getString(R.string.chipotle_grill),R.drawable.placeholder);
+        mCardData = new CardData("Syracuse Inner Harbor", getString(R.string.inner_harbor), getString(R.string.chipotle_grill),R.drawable.inner_harbor);
         mParkList.add(mCardData);
         mCardData = new CardData("park name", getString(R.string.description_general),getString(R.string.chipotle_grill),
                 R.drawable.placeholder);

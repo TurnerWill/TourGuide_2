@@ -1651,6 +1651,7 @@ string go_to_settings_turn_on_location_msg
 string hide_bottom_view_on_scroll_behavior
 string historical
 string hk_takeout_phone
+string inner_harbor
 string koto_grill_phone
 string mtrl_chip_close_icon_content_description
 string no_search_results

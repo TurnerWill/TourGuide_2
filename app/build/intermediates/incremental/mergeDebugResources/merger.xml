@@ -3718,7 +3718,8 @@
         Say "いただきます(i-ta-da-ki-mas)" directly before eating to get a smile from the chef.</string><string name="creole_soul_phone">13155304178</string><string name="hk_takeout_phone">13154288898</string><string name="wings_syracuse_phone">13154459464</string><string name="description_spaghetti">The Spaghetti Warehouse is tucked away in a section of town that was
     formerly factories and warehouses. These buildings have been converted to salons, upscale apartments, and retail stores.
     It has a very cozy environment. Do not be surprised if a theatrical group, a magician, or possibly a violinist is presented
-    during your meal. </string><string name="chipotle_grill">13154288898</string><string name="historical">Historical Sites</string></file><file path="C:\Users\William\AndroidStudioProjects\TourGuide_2\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    during your meal. </string><string name="chipotle_grill">13154288898</string><string name="historical">Historical Sites</string><string name="inner_harbor">A relaxing spot to people watch, it as the center of the revitalized Solar City section of town,
+    an area with many new luxury apartments and shopping zones.</string></file><file path="C:\Users\William\AndroidStudioProjects\TourGuide_2\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/primary_color</item>
         <item name="colorPrimaryDark">@color/primary_dark_color</item>
     </style><style name="CategoryStyle">

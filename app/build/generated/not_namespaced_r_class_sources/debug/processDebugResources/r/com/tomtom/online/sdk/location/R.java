@@ -885,8 +885,8 @@ public final class R {
         public static final int display_dist_mi = 0x7f0e0058;
         public static final int display_dist_yds = 0x7f0e0059;
         public static final int display_time_24h = 0x7f0e005a;
-        public static final int search_menu_title = 0x7f0e0074;
-        public static final int status_bar_notification_info_overflow = 0x7f0e0077;
+        public static final int search_menu_title = 0x7f0e0075;
+        public static final int status_bar_notification_info_overflow = 0x7f0e0078;
     }
     public static final class style {
         private style() {}
