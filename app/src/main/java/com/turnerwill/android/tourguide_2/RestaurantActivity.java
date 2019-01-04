@@ -54,28 +54,28 @@ public class RestaurantActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mGridLayoutManager);
 
         mRestaurantList = new ArrayList<CardData>();
-        mCardData = new CardData("Creole Soul", getString(R.string.description_creole), getString(R.string.creole_soul_phone),R.drawable.creole_soul);
+        mCardData = new CardData("Creole Soul", getString(R.string.description_creole), getString(R.string.creole_soul_phone), "43.0596", "-76.1520", R.drawable.creole_soul);
         mRestaurantList.add(mCardData);
-        mCardData = new CardData("Koto Bar and Grill", getString(R.string.description_koto),getString(R.string.koto_grill_phone),
+        mCardData = new CardData("Koto Bar and Grill", getString(R.string.description_koto),getString(R.string.koto_grill_phone),"43.0697","-76.1740",
                 R.drawable.koto_steakhouse);
         mRestaurantList.add(mCardData);
-        mCardData = new CardData("Pavone's Pizza", getString(R.string.description_general), getString(R.string.pavones_pizza_phone),
+        mCardData = new CardData("Pavone's Pizza", getString(R.string.description_general), getString(R.string.pavones_pizza_phone),"43.0475", "-76.1505",
                 R.drawable.pavones_pizza);
         mRestaurantList.add(mCardData);
         mCardData = new CardData("The Spaghetti Warehouse", getString(R.string.description_thornden), getString(R.string.spaghetti_phone),
-                R.drawable.spaghetti_warehouse);
+               "43.0585","-76.1571", R.drawable.spaghetti_warehouse);
         mRestaurantList.add(mCardData);
         mCardData = new CardData("The Rescue Mission Kitchen", getString(R.string.description_rescue), getString(R.string.rescue_phone),
-                R.drawable.rescue_mission);
+               "43.0433", "-76.1557", R.drawable.rescue_mission);
         mRestaurantList.add(mCardData);
         mCardData = new CardData("restaurant name", getString(R.string.description_general), null,
-                R.drawable.placeholder);
+               "43.04", "-76.14", R.drawable.placeholder);
         mRestaurantList.add(mCardData);
         mCardData = new CardData("restaurant name", getString(R.string.description_general), null,
-                R.drawable.placeholder);
+               "43.04", "-76.14", R.drawable.placeholder);
         mRestaurantList.add(mCardData);
         mCardData = new CardData("restaurant name", getString(R.string.description_general), null,
-                R.drawable.placeholder);
+               "43.04", "-76.14", R.drawable.placeholder);
         mRestaurantList.add(mCardData);
 
         MyAdapter myAdapter = new MyAdapter(RestaurantActivity.this, mRestaurantList, true);

@@ -52,6 +52,8 @@ public class MyAdapter extends RecyclerView.Adapter<CardViewHolder> {
                 mIntent.putExtra("Description", mCardList.get(holder.getAdapterPosition()).getCardDescription());
                 mIntent.putExtra("Image", mCardList.get(holder.getAdapterPosition()).getCardImage());
                 mIntent.putExtra("Phone_number", mCardList.get(holder.getAdapterPosition()).getPhoneNumber());
+                mIntent.putExtra("Latitude", mCardList.get(holder.getAdapterPosition()).getLatitude());
+                mIntent.putExtra("Longitude", mCardList.get(holder.getAdapterPosition()).getLongitude());
                 mContext.startActivity(mIntent);
                 }
                 else {          // intent moves to DetailActivity

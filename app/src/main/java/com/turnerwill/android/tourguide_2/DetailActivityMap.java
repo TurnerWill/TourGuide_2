@@ -52,7 +52,12 @@ public class DetailActivityMap extends AppCompatActivity implements OnMapReadyCa
 
     ImageView mImage;
     TextView mDescription;
-    String phone;
+    private String phone;
+    private String latitude;
+    private String longitude;
+    private String description;
+    private String targetName;
+    boolean showTarget = false;
     private TomtomMap tomtomMap;
     private SearchApi searchApi;
     private RoutingApi routingApi;
@@ -69,7 +74,14 @@ public class DetailActivityMap extends AppCompatActivity implements OnMapReadyCa
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_map);
+        Bundle mBundle = getIntent().getExtras();
+        if (mBundle != null) {
+            targetName = mBundle.getString("Title");
+            latitude = mBundle.getString("Latitude");
+            longitude = mBundle.getString("Longitude");
+            description = mBundle.getString("Description");
 
+        }
         initTomTomServices();
         initUIViews();
         setupUIViewListeners();
@@ -79,9 +91,12 @@ public class DetailActivityMap extends AppCompatActivity implements OnMapReadyCa
     @Override
     public void onMapReady(@NonNull TomtomMap tomtomMap) {
         LatLng syr = new LatLng(43.04, -76.14); // aux
+        LatLng target = new LatLng(Float.parseFloat(latitude), Float.parseFloat(longitude));
         this.tomtomMap = tomtomMap;
         this.tomtomMap.setMyLocationEnabled(true);
-        this.tomtomMap.centerOn(syr); // aux
+        this.tomtomMap.centerOn(target); // aux
+
+        clearMap();
 
         MarkerBuilder markerBuilder = new MarkerBuilder(syr) //start here
                 .icon(Icon.Factory.fromResources(this, R.drawable.ic_favourites))
@@ -89,6 +104,14 @@ public class DetailActivityMap extends AppCompatActivity implements OnMapReadyCa
                 .tag("more information in tag").iconAnchor(MarkerAnchor.Bottom)
                 .decal(true); //By default is false
         this.tomtomMap.addMarker(markerBuilder);
+
+        MarkerBuilder targetMarker = new MarkerBuilder(target)
+                .icon(Icon.Factory.fromResources(this, R.drawable.ic_markedlocation))
+                .markerBalloon(new SimpleMarkerBalloon(targetName))
+                .tag("more information in tag").iconAnchor(MarkerAnchor.Bottom)
+                .decal(true);
+        this.tomtomMap.addMarker(targetMarker);
+
 
         Toast.makeText(DetailActivityMap.this, "Syracuse, NY", Toast.LENGTH_SHORT).show();// end here
 
