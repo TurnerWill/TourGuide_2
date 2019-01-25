@@ -8,17 +8,12 @@ public class CardData {
     private String longitude;
     private String phoneNumber;
     private int cardImage;
+    private String videoPath; //represents URL path of video
 
-    //constructor for cards without location data
-    public CardData(String cardName, String cardDescription, int cardImage) {
-        this.cardName = cardName;
-        this.cardDescription = cardDescription;
-        this.cardImage = cardImage;
-    }
 
-    // constructor for cards which will use floating action button,
-    // a null value as phoneNumber will hide fab, (handled in DetailActivity.class)
-    // a fab click triggers implicit Intent.ACTION_DIAL (handled in DetailActivity.class),
+    // constructor for cards that will use DetailActivity.class,
+    // a null value as phoneNumber will hide fab,
+    // a fab click triggers implicit Intent.ACTION_DIAL
     public CardData(String cardName, String cardDescription, String phoneNumber, int cardImage) {
         this.cardName = cardName;
         this.cardDescription = cardDescription;
@@ -26,7 +21,7 @@ public class CardData {
         this.cardImage = cardImage;
     }
 
-    //constructor for cards with location data(for possible map api)
+    //constructor for cards holding a mapview, used within the  DetailActivityMap.class
     public CardData(String cardName, String cardDescription, String phoneNumber,String latitude,
                     String longitude, int cardImage) {
         this.cardName = cardName;
@@ -35,6 +30,14 @@ public class CardData {
         this.latitude = latitude;
         this.longitude = longitude;
         this.cardImage = cardImage;
+    }
+
+    // constructor for cards holding video, used within the DetailActivityVideo.class
+    public CardData(String cardName, int cardImage, String videoPath) {
+        //String cardVideo is URL path of video
+        this.cardName = cardName;
+        this.cardImage = cardImage;
+        this.videoPath = videoPath;
     }
 
     public String getCardName() {
@@ -54,4 +57,6 @@ public class CardData {
     public String getLongitude() { return longitude; }
 
     public String getPhoneNumber() { return phoneNumber; }
+
+    public String getVideoPath() { return videoPath; }
 }

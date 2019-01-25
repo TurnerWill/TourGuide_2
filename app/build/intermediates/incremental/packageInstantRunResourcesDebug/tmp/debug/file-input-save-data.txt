@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Dec 11 19:48:27 EST 2018
+#Fri Jan 25 13:35:43 EST 2019
 20.base=C\:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 143.base=C\:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 237.path=styles/glyphs/FrutigerHelveticaMYingHei-Bold/1280-1535.pbf

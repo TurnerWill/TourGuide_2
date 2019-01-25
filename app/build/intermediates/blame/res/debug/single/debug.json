@@ -180,6 +180,10 @@
         "source": "C:\\Users\\William\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\3aff3a2d9072eb5861b1013fffd4d4ee\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\raw_occ_video.3gp.flat",
+        "source": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\src\\main\\res\\raw\\occ_video.3gp"
+    },
+    {
         "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_occ_logo.jpg.flat",
         "source": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\src\\main\\res\\drawable\\occ_logo.jpg"
     },
@@ -192,12 +196,12 @@
         "source": "C:\\Users\\William\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\06da26157483c764a78b5c1f33147f90\\res\\layout\\mtrl_layout_snackbar.xml"
     },
     {
-        "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
-        "source": "C:\\Users\\William\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\3aff3a2d9072eb5861b1013fffd4d4ee\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\William\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\3aff3a2d9072eb5861b1013fffd4d4ee\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "C:\\Users\\William\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\3aff3a2d9072eb5861b1013fffd4d4ee\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -888,6 +892,10 @@
         "source": "C:\\Users\\William\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\06da26157483c764a78b5c1f33147f90\\res\\layout\\design_layout_tab_text.xml"
     },
     {
+        "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\raw_su_video.3gp.flat",
+        "source": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\src\\main\\res\\raw\\su_video.3gp"
+    },
+    {
         "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "C:\\Users\\William\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\3aff3a2d9072eb5861b1013fffd4d4ee\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
@@ -1230,6 +1238,10 @@
     {
         "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
         "source": "C:\\Users\\William\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\3aff3a2d9072eb5861b1013fffd4d4ee\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\raw_upstate_video.3gp.flat",
+        "source": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\src\\main\\res\\raw\\upstate_video.3gp"
     },
     {
         "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
@@ -1860,6 +1872,10 @@
         "source": "C:\\Users\\William\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\3aff3a2d9072eb5861b1013fffd4d4ee\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\raw_oswego_video.3gp.flat",
+        "source": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\src\\main\\res\\raw\\oswego_video.3gp"
+    },
+    {
         "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
         "source": "C:\\Users\\William\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\3aff3a2d9072eb5861b1013fffd4d4ee\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
@@ -2094,6 +2110,10 @@
     {
         "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\William\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\3aff3a2d9072eb5861b1013fffd4d4ee\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_balloon.xml.flat",
+        "source": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\src\\main\\res\\layout\\custom_balloon.xml"
     },
     {
         "merged": "C:\\Users\\William\\AndroidStudioProjects\\TourGuide_2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",

@@ -78,7 +78,8 @@ public class RestaurantActivity extends AppCompatActivity {
                "43.04", "-76.14", R.drawable.placeholder);
         mRestaurantList.add(mCardData);
 
-        MyAdapter myAdapter = new MyAdapter(RestaurantActivity.this, mRestaurantList, true);
+        // here the boolean 'map' indicates a DetailMapActivity(only one boolean should be true, all other bools should be false)
+        MyAdapter myAdapter = new MyAdapter(RestaurantActivity.this, mRestaurantList, true, false);
         mRecyclerView.setAdapter(myAdapter);
 
     }

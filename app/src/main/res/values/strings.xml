@@ -71,4 +71,5 @@
 
     <string name="geocode_no_results">No Geocoder results. Pick different location and try again.</string>
     <string name="api_response_error">API response error: \'%1$s\'.</string>
+
 </resources>

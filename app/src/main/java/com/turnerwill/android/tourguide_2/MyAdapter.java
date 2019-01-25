@@ -17,6 +17,7 @@ public class MyAdapter extends RecyclerView.Adapter<CardViewHolder> {
     private Context mContext;
     private List<CardData> mCardList;
     private Boolean map = false;
+    private Boolean video = false;
 
     // a constructor for activities that will have Intent towards DetailActivity.class
     MyAdapter(Context mContext, List<CardData> mCardList) {
@@ -25,10 +26,12 @@ public class MyAdapter extends RecyclerView.Adapter<CardViewHolder> {
     }
 
     // constructor for activities that will have Intent towards DetailActivityMap.class
-    MyAdapter(Context mContext, List<CardData> mCardList, Boolean map) {
+    // or DetailActivityVideo.class
+    MyAdapter(Context mContext, List<CardData> mCardList, Boolean map, Boolean video) {
         this.mContext = mContext;
         this.mCardList = mCardList;
         this.map = map;
+        this.video = video;
     }
 
     @Override
@@ -56,7 +59,15 @@ public class MyAdapter extends RecyclerView.Adapter<CardViewHolder> {
                 mIntent.putExtra("Longitude", mCardList.get(holder.getAdapterPosition()).getLongitude());
                 mContext.startActivity(mIntent);
                 }
-                else {          // intent moves to DetailActivity
+                else if (video == true) { // intent moves to DetailActivityVideo
+                    Intent mIntent = new Intent(mContext, DetailActivityVideo.class);
+                    mIntent.putExtra("Title", mCardList.get(holder.getAdapterPosition()).getCardName());
+                    mIntent.putExtra("Image", mCardList.get(holder.getAdapterPosition()).getCardImage());
+                    mIntent.putExtra("Videopath", mCardList.get(holder.getAdapterPosition()).getVideoPath());
+                    mContext.startActivity(mIntent);
+                }
+                else
+                    {          // intent moves to DetailActivity
                     Intent mIntent = new Intent(mContext, DetailActivity.class);
                     mIntent.putExtra("Title", mCardList.get(holder.getAdapterPosition()).getCardName());
                     mIntent.putExtra("Description", mCardList.get(holder.getAdapterPosition()).getCardDescription());

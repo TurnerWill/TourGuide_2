@@ -14,8 +14,10 @@ import android.widget.Toast;
 
 import com.google.common.base.Optional;
 import com.tomtom.online.sdk.common.location.LatLng;
+import com.tomtom.online.sdk.location.Locations;
 import com.tomtom.online.sdk.map.BaseMarkerBalloon;
 import com.tomtom.online.sdk.map.Icon;
+import com.tomtom.online.sdk.map.MapConstants;
 import com.tomtom.online.sdk.map.MapFragment;
 import com.tomtom.online.sdk.map.MarkerAnchor;
 import com.tomtom.online.sdk.map.MarkerBuilder;
@@ -46,18 +48,19 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.observers.DisposableSingleObserver;
 import io.reactivex.schedulers.Schedulers;
 
+import static com.tomtom.online.sdk.map.MapConstants.DEFAULT_ZOOM_LEVEL;
 import static java.security.AccessController.getContext;
 
 public class DetailActivityMap extends AppCompatActivity implements OnMapReadyCallback, TomtomMapCallback.OnMapLongClickListener {
 
     ImageView mImage;
     TextView mDescription;
+    TextView mName;
     private String phone;
     private String latitude;
     private String longitude;
     private String description;
     private String targetName;
-    boolean showTarget = false;
     private TomtomMap tomtomMap;
     private SearchApi searchApi;
     private RoutingApi routingApi;
@@ -80,7 +83,6 @@ public class DetailActivityMap extends AppCompatActivity implements OnMapReadyCa
             latitude = mBundle.getString("Latitude");
             longitude = mBundle.getString("Longitude");
             description = mBundle.getString("Description");
-
         }
         initTomTomServices();
         initUIViews();
@@ -94,7 +96,7 @@ public class DetailActivityMap extends AppCompatActivity implements OnMapReadyCa
         LatLng target = new LatLng(Float.parseFloat(latitude), Float.parseFloat(longitude));
         this.tomtomMap = tomtomMap;
         this.tomtomMap.setMyLocationEnabled(true);
-        this.tomtomMap.centerOn(target); // aux
+        this.tomtomMap.centerOn(target.getLatitude(),target.getLongitude(),12, MapConstants.ORIENTATION_NORTH); // aux
 
         clearMap();
 
@@ -104,6 +106,7 @@ public class DetailActivityMap extends AppCompatActivity implements OnMapReadyCa
                 .tag("more information in tag").iconAnchor(MarkerAnchor.Bottom)
                 .decal(true); //By default is false
         this.tomtomMap.addMarker(markerBuilder);
+
 
         MarkerBuilder targetMarker = new MarkerBuilder(target)
                 .icon(Icon.Factory.fromResources(this, R.drawable.ic_markedlocation))
