@@ -54,10 +54,16 @@ public class SchoolActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mGridLayoutManager);
 
         mSchoolList = new ArrayList<CardData>();
-        mCardData = new CardData("Syracuse University", "description goes here", null, R.drawable.su_logo);
+        mCardData = new CardData("Upstate Medical University", R.drawable.suny_logo, "android.resource://com.turnerwill.android.tourguide_2/"+R.raw.upstate_video);
         mSchoolList.add(mCardData);
-        mCardData = new CardData("Upstate Medical University", getString(R.string.description_general),null,
-                R.drawable.suny_logo);
+        mCardData = new CardData("Syracuse University", R.drawable.su_logo, "android.resource://com.turnerwill.android.tourguide_2/"+R.raw.su_video);
+        mSchoolList.add(mCardData);
+        mCardData = new CardData("Onondaga Community College", R.drawable.occ_logo, "android.resource://com.turnerwill.android.tourguide_2/"+R.raw.occ_video);
+        mSchoolList.add(mCardData);
+        mCardData = new CardData("SUNY Oswego", R.drawable.oswego_logo, "android.resource://com.turnerwill.android.tourguide_2/"+R.raw.oswego_video);
+        mSchoolList.add(mCardData);
+
+       /* mCardData = new CardData("Syracuse University", "description goes here", null, R.drawable.su_logo);
         mSchoolList.add(mCardData);
         mCardData = new CardData("Lemoyne College", getString(R.string.description_general), null,
                 R.drawable.lemoyne_logo);
@@ -70,9 +76,11 @@ public class SchoolActivity extends AppCompatActivity {
         mSchoolList.add(mCardData);
         mCardData = new CardData("SUNY Enviromental School of Science and Forestry", getString(R.string.description_erie), null,
                 R.drawable.esf_logo);
-        mSchoolList.add(mCardData);
+        mSchoolList.add(mCardData);*/
 
-        MyAdapter myAdapter = new MyAdapter(SchoolActivity.this, mSchoolList);
+
+        // here the boolean 'video' indicates a DetailVideoActivity(only one boolean should be true, all other bools should be false)
+        MyAdapter myAdapter = new MyAdapter(SchoolActivity.this, mSchoolList, false, true);
         mRecyclerView.setAdapter(myAdapter);
 
     }

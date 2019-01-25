@@ -1248,6 +1248,9 @@ id btn_main_poisearch
 id buttonPanel
 id cancel_action
 id cardview
+id cbDescription
+id cbImage
+id cbName
 id center
 id centerOnCurrentLocation
 id center_horizontal
@@ -1507,6 +1510,7 @@ layout activity_detail_video
 layout activity_main
 layout arrow_buttons_group
 layout balloon_layout
+layout custom_balloon
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1552,6 +1556,10 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 raw config
 raw default_copyrights
+raw occ_video
+raw oswego_video
+raw su_video
+raw upstate_video
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

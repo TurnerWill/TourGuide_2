@@ -16,7 +16,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    
+
+    sourceSets { main { res.srcDirs = ['src/main/res', 'src/main/res/raw'] } }
 }
 
 dependencies {
@@ -37,4 +38,3 @@ dependencies {
     implementation files('libs/maplibsdk.jar')
     implementation files('libs/mapviewer2.jar')
 }
-

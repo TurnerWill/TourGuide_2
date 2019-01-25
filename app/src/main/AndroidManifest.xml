@@ -8,6 +8,8 @@
         android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission
         android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE" />
 
 
     <application
@@ -43,6 +45,10 @@
             ></activity>
 
         <activity android:name=".DetailActivityMap"
+            android:screenOrientation="portrait"
+            ></activity>
+
+        <activity android:name=".DetailActivityVideo"
             android:screenOrientation="portrait"
             ></activity>
 
