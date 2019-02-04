@@ -3716,9 +3716,8 @@
     does not mean you should not eat some quality food while in Syracuse. The Rescue Mission has been
     serving the food needs of people having hard times for decades. Give it a try you might like it.</string><string name="description_koto">Located in the very popular Destiny USA mall food court, this restaurant
          has a unique and distinct presence. Koto is popular for the quality Japanese cuisine it serves.
-        Say "いただきます(i-ta-da-ki-mas)" directly before eating to get a smile from the chef.</string><string name="description_pavones">Just straight forward, delicious, NY style pizza here at reasonable pricing. </string><string name="description_spaghetti">The Spaghetti Warehouse is tucked away in a section of town that was
-    formerly factories and warehouses. These buildings have been converted to salons, upscale apartments, and retail stores.
-    It has a very cozy environment. Do not be surprised if a theatrical group, a magician, or possibly a violinist is presented
+        Say "いただきます(i-ta-da-ki-mas)" directly before eating to get a smile from the chef.</string><string name="description_pavones">Just straight forward, delicious, NY style pizza here at reasonable pricing. </string><string name="description_spaghetti">The Spaghetti Warehouse is in a rejuvenated section of town that was
+    formerly factories and warehouses. It offers a very cozy, and romantic environment. Do not be surprised if a theatrical group, a magician,or possibly a violinist is presented
     during your meal. </string><string name="poi_name_key">poiName</string><string name="address_key">address</string><string name="poisearch_hint">Kind of place to add to your route</string><string name="no_search_results">No search results for \'%1$s\'. Please try another search term.</string><string name="add_to_my_route">Add to my route</string><string name="geocode_no_results">No Geocoder results. Pick different location and try again.</string><string name="api_response_error">API response error: \'%1$s\'.</string></file><file path="C:\Users\William\AndroidStudioProjects\TourGuide_2\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/primary_color</item>
         <item name="colorPrimaryDark">@color/primary_dark_color</item>

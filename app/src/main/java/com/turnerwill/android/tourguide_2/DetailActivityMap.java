@@ -77,12 +77,16 @@ public class DetailActivityMap extends AppCompatActivity implements OnMapReadyCa
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_map);
+        mImage = findViewById(R.id.miniImage);
+        mDescription = findViewById(R.id.miniDescript);
         Bundle mBundle = getIntent().getExtras();
         if (mBundle != null) {
             targetName = mBundle.getString("Title");
             latitude = mBundle.getString("Latitude");
             longitude = mBundle.getString("Longitude");
             description = mBundle.getString("Description");
+            mImage.setImageResource(mBundle.getInt("Image"));
+            mDescription.setText(mBundle.getString("Description"));
         }
         initTomTomServices();
         initUIViews();

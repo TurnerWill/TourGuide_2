@@ -59,10 +59,10 @@ public class RestaurantActivity extends AppCompatActivity {
         mCardData = new CardData("Koto Bar and Grill", getString(R.string.description_koto),getString(R.string.koto_grill_phone),"43.0697","-76.1740",
                 R.drawable.koto_steakhouse);
         mRestaurantList.add(mCardData);
-        mCardData = new CardData("Pavone's Pizza", getString(R.string.description_general), getString(R.string.pavones_pizza_phone),"43.0475", "-76.1505",
+        mCardData = new CardData("Pavone's Pizza", getString(R.string.description_pavones), getString(R.string.pavones_pizza_phone),"43.0475", "-76.1505",
                 R.drawable.pavones_pizza);
         mRestaurantList.add(mCardData);
-        mCardData = new CardData("The Spaghetti Warehouse", getString(R.string.description_thornden), getString(R.string.spaghetti_phone),
+        mCardData = new CardData("The Spaghetti Warehouse", getString(R.string.description_spaghetti), getString(R.string.spaghetti_phone),
                "43.0585","-76.1571", R.drawable.spaghetti_warehouse);
         mRestaurantList.add(mCardData);
         mCardData = new CardData("The Rescue Mission Kitchen", getString(R.string.description_rescue), getString(R.string.rescue_phone),

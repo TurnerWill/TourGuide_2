@@ -58,9 +58,8 @@
          has a unique and distinct presence. Koto is popular for the quality Japanese cuisine it serves.
         Say "いただきます(i-ta-da-ki-mas)" directly before eating to get a smile from the chef.</string>
     <string name="description_pavones">Just straight forward, delicious, NY style pizza here at reasonable pricing. </string>
-    <string name="description_spaghetti">The Spaghetti Warehouse is tucked away in a section of town that was
-    formerly factories and warehouses. These buildings have been converted to salons, upscale apartments, and retail stores.
-    It has a very cozy environment. Do not be surprised if a theatrical group, a magician, or possibly a violinist is presented
+    <string name="description_spaghetti">The Spaghetti Warehouse is in a rejuvenated section of town that was
+    formerly factories and warehouses. It offers a very cozy, and romantic environment. Do not be surprised if a theatrical group, a magician,or possibly a violinist is presented
     during your meal. </string>
 
     <string name="poi_name_key">poiName</string>
